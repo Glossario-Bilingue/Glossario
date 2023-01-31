@@ -1,0 +1,8 @@
+CRITICAL - 2023-01-30 11:34:25 --> Undefined property: App\Controllers\Form::$input
+in APPPATH\Controllers\Form.php on line 21.
+ 1 APPPATH\Controllers\Form.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Form::$input', 'APPPATH\\Controllers\\Form.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->save()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
