@@ -7,7 +7,7 @@ class Home extends BaseController
     
     public function index()
     {
-        return view('layout/header').view('home').view('layout/footer');
+        return view('layout/header').view('layout/search').view('home').view('layout/footer');
         
     }
 }

@@ -1,0 +1,48 @@
+CRITICAL - 2023-02-13 00:00:36 --> Undefined array key "data_acesso"
+in APPPATH\Controllers\Session.php on line 35.
+ 1 APPPATH\Controllers\Session.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data_acesso"', 'APPPATH\\Controllers\\Session.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 00:02:26 --> Undefined array key "dados"
+in APPPATH\Controllers\Session.php on line 33.
+ 1 APPPATH\Controllers\Session.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dados"', 'APPPATH\\Controllers\\Session.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 00:02:42 --> Undefined array key "data_acesso"
+in APPPATH\Controllers\Session.php on line 33.
+ 1 APPPATH\Controllers\Session.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data_acesso"', 'APPPATH\\Controllers\\Session.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 00:07:00 --> Undefined array key "data_acesso"
+in APPPATH\Controllers\Session.php on line 27.
+ 1 APPPATH\Controllers\Session.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data_acesso"', 'APPPATH\\Controllers\\Session.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 00:08:39 --> Undefined array key 0
+in APPPATH\Controllers\Session.php on line 33.
+ 1 APPPATH\Controllers\Session.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Session.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 00:09:16 --> Undefined array key 0
+in APPPATH\Controllers\Session.php on line 33.
+ 1 APPPATH\Controllers\Session.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Session.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

@@ -13,10 +13,4 @@ class Admin extends BaseController
         
     }
 
-    public function form()
-    {
-        return view('layout/header').view('admin/form').view('layout/footer');
-        
-    }
-
 }

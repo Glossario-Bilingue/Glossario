@@ -6,7 +6,6 @@ use App\Models\Dados_GlossarioModel;
 
 class Result extends BaseController
 {
-
     public function list($termo)
     {
         $dadosModel = new Dados_GlossarioModel();
@@ -17,7 +16,12 @@ class Result extends BaseController
             'dados' => $dados
         ];
         
-        return view('layout/header').view('results/list', $dados).view('layout/footer');
+        if (!empty($dados['dados'])){
+            return view('layout/header').view('layout/search').view('results/list', $dados).view('layout/footer');
+        } else
+        {
+            return view('layout/header').view('layout/search').view('messages/not_found').view('layout/footer');
+        }
         
     }
 
@@ -34,10 +38,10 @@ class Result extends BaseController
         ];
 
         if (!empty($dados['dados'])){
-            return view('layout/header').view('results/list', $dados).view('layout/footer');
+            return view('layout/header').view('layout/search').view('results/list', $dados).view('layout/footer');
         } else
         {
-            return view('layout/header').view('messages/not_found').view('layout/footer');
+            return view('layout/header').view('layout/search').view('messages/not_found').view('layout/footer');
         }
         
     }
@@ -52,7 +56,7 @@ class Result extends BaseController
             'dados' => $dados
         ];
 
-        return view('layout/header').view('results/definition', $dados).view('layout/footer');
+        return view('layout/header').view('layout/search').view('results/definition', $dados).view('layout/footer');
         
     }
 

@@ -45,13 +45,18 @@ $routes->post('/contact/sendEmail', 'Contact/sendEmail');
 
 $routes->get('/result/notfound', 'Result::notfound');
 
-$routes->get('/admin/form', 'Admin::form');
-$routes->get('/admin/login', 'Admin::login');
+$routes->get('/admin/form', 'FormAdmin::formAdmin');
+$routes->post('/formAdmin/save', 'FormAdmin::save');
+$routes->get('/formAdmin/update/(:num)', 'FormAdmin::update/$1');
+$routes->get('/formAdmin/delete/(:num)', 'FormAdmin::delete/$1');
 
-$routes->post('/form/save', 'Form::save');
+$routes->get('/session/index', 'Session::index');
+$routes->get('/session/loginForm', 'Session::loginForm');
+$routes->post('/session/login', 'Session::login');
+$routes->get('/session/logout', 'Session::logout');
 
-$routes->post('/Login/login', 'Login::login');
-$routes->post('/Login/logout', 'Login::logout');
+$routes->post('/emailSubmission', 'SendEmail::sendEmailSubmission');
+$routes->post('/emailMessage', 'SendEmail::sendEmailMessage');
 
 
 /*

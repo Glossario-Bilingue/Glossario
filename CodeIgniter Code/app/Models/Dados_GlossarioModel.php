@@ -6,7 +6,7 @@ class Dados_GlossarioModel extends Model{
 
     protected $table = 'dados_glossario';
     protected $primaryKey = 'id_termo';
-    protected $allowedFields = ['termo', 'sigla', 'classe', 'plural', 'traducao', 'definicao', 'area'];
+    protected $allowedFields = ['termo', 'sigla', 'classe', 'plural', 'traducao', 'definicao', 'area', 'referencia', 'autor', 'dia'];
 
     public function searchTerm($term){
 

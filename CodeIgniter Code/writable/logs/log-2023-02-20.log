@@ -1,0 +1,767 @@
+INFO - 2023-02-20 12:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 09:27:44 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(46): CodeIgniter\Email\Email->setFrom('glossario.informatica@farroupilha.ifrs.edu.br', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:27:44 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 12:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 09:28:34 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(48): CodeIgniter\Email\Email->setFrom('glossario.informatica@farroupilha.ifrs.edu.br', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:28:34 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 12:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 09:30:01 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(48): CodeIgniter\Email\Email->setFrom('glossario.informatica@farroupilha.ifrs.edu.br', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:30:01 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 12:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 09:34:30 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(46): CodeIgniter\Email\Email->setFrom('glossario.informatica@farroupilha.ifrs.edu.br', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:34:30 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 12:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 09:35:09 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(48): CodeIgniter\Email\Email->setFrom('glossario.informatica@farroupilha.ifrs.edu.br', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:35:09 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 12:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 09:36:08 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(48): CodeIgniter\Email\Email->setFrom('lyhllo@gmail.com', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:36:08 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 12:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 09:42:49 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(48): CodeIgniter\Email\Email->setFrom('ROOTPATH\\public', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:42:49 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 12:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 09:44:40 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(48): CodeIgniter\Email\Email->setFrom('ROOTPATH\\public', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:44:40 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 12:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 09:53:56 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(35): CodeIgniter\Email\Email->setFrom('ROOTPATH\\public', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:53:56 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 12:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 12:56:20 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(35): CodeIgniter\Email\Email->setFrom('ROOTPATH\\public', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 12:56:20 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 12:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 12:56:56 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(35): CodeIgniter\Email\Email->setFrom('ROOTPATH\\public', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 12:56:56 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 13:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-20 13:02:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-20 13:02:53 --> 220 smtp.gmail.com ESMTP t31-20020a056808159f00b0037faba740b8sm238640oiw.16 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14c:b180:87ef:7105:e88a:afc0:1e4b]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t31-20020a056808159f00b0037faba740b8sm238640oiw.16 - gsmtp
+
+INFO - 2023-02-20 13:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-20 13:03:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-20 13:03:37 --> 220 smtp.gmail.com ESMTP y18-20020a0568301d9200b006865223e532sm4911265oti.51 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14c:b180:87ef:7105:e88a:afc0:1e4b]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y18-20020a0568301d9200b006865223e532sm4911265oti.51 - gsmtp
+
+INFO - 2023-02-20 13:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-20 13:04:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-20 13:04:25 --> 220 smtp.gmail.com ESMTP w8-20020a9d4508000000b0068bd20cf07dsm26757ote.48 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14c:b180:87ef:7105:e88a:afc0:1e4b]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w8-20020a9d4508000000b0068bd20cf07dsm26757ote.48 - gsmtp
+
+INFO - 2023-02-20 13:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-20 13:05:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-20 13:05:36 --> 220 smtp.gmail.com ESMTP o10-20020a9d5c0a000000b0068bce0cd4e1sm4973660otk.9 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14c:b180:87ef:7105:e88a:afc0:1e4b]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o10-20020a9d5c0a000000b0068bce0cd4e1sm4973660otk.9 - gsmtp
+
+INFO - 2023-02-20 13:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-20 13:06:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-20 13:06:26 --> 220 smtp.gmail.com ESMTP t1-20020a05687044c100b00163b85ef1bfsm4392372oai.35 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14c:b180:87ef:7105:e88a:afc0:1e4b]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t1-20020a05687044c100b00163b85ef1bfsm4392372oai.35 - gsmtp
+
+INFO - 2023-02-20 13:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-20 13:09:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-02-20 13:09:18 --> 220 smtp.gmail.com ESMTP bd23-20020a056808221700b0037d93a7e8f6sm1667462oib.54 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14c:b180:87ef:7105:e88a:afc0:1e4b]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2804:14c:b180:87ef:7105:e88a:afc0:1e4b]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bd23-20020a056808221700b0037d93a7e8f6sm1667462oib.54 - gsmtp
+
+INFO - 2023-02-20 13:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 13:15:38 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(35): CodeIgniter\Email\Email->setFrom('lyhllo@yahoo.com.br', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 13:15:38 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 13:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 10:19:55 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(36): CodeIgniter\Email\Email->setFrom('ROOTPATH\\public', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 10:19:55 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 13:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 10:20:13 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(36): CodeIgniter\Email\Email->setFrom('glossario.informatica@farroupilha.ifrs.edu.br', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 10:20:13 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 13:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-20 10:20:38 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in SYSTEMPATH\Email\Email.php on line 492.
+ 1 SYSTEMPATH\Email\Email.php(492): preg_match('/[\\200-\\377]/', null)
+ 2 APPPATH\Controllers\SendEmail.php(34): CodeIgniter\Email\Email->setFrom('ROOTPATH\\public', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 10:20:38 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php:93
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Common.php(93): realpath('\x00..\x1F\x7F'"\\')
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(524): clean_path('\x00..\x1F\x7F'"\\')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x00..\x1F\x7F'"\\')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(529): array_map(Object(Closure), Array)
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ValueError))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-20 13:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 13:23:46 --> Invalid file: "emailSubmission.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('emailSubmission.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('emailSubmission', [], true)
+ 3 APPPATH\Controllers\SendEmail.php(61): view('emailSubmission', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 13:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 13:37:46 --> Undefined variable $data
+in APPPATH\Views\home.php on line 17.
+ 1 APPPATH\Views\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\home.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\SendEmail.php(74): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailSubmission()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 13:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 11:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 11:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 14:29:58 --> Call to undefined function App\Controllers\now()
+in APPPATH\Controllers\Session.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 14:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 11:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 11:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 11:33:05 --> Undefined variable $dados
+in APPPATH\Views\home.php on line 18.
+ 1 APPPATH\Views\home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'APPPATH\\Views\\home.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/home', [], true)
+ 5 APPPATH\Controllers\Session.php(47): view('/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 14:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 11:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 11:33:28 --> Undefined variable $dados
+in APPPATH\Views\home.php on line 18.
+ 1 APPPATH\Views\home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'APPPATH\\Views\\home.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/home', [], true)
+ 5 APPPATH\Controllers\Session.php(47): view('/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 14:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 11:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 11:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 11:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 11:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 11:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 14:39:29 --> session_regenerate_id(): Session ID cannot be regenerated when there is no active session
+in SYSTEMPATH\Session\Session.php on line 289.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_regenerate_id(): Session ID cannot be regenerated when there is no active session', 'SYSTEMPATH\\Session\\Session.php', 289)
+ 2 SYSTEMPATH\Session\Session.php(289): session_regenerate_id(true)
+ 3 APPPATH\Controllers\Session.php(60): CodeIgniter\Session\Session->stop()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 14:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 11:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 14:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 15:06:16 --> Undefined variable $erro
+in APPPATH\Views\contact\message.php on line 18.
+ 1 APPPATH\Views\contact\message.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $erro', 'APPPATH\\Views\\contact\\message.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact\\message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('contact/message', [], true)
+ 5 APPPATH\Controllers\Contact.php(12): view('contact/message')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contact->message()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 15:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 15:06:21 --> Undefined variable $erro
+in APPPATH\Views\contact\message.php on line 18.
+ 1 APPPATH\Views\contact\message.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $erro', 'APPPATH\\Views\\contact\\message.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact\\message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('contact/message', [], true)
+ 5 APPPATH\Controllers\Contact.php(12): view('contact/message')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contact->message()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 15:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 12:19:44 --> Undefined variable $sigla
+in APPPATH\Views\contact\emailMessage.php on line 27.
+ 1 APPPATH\Views\contact\emailMessage.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sigla', 'APPPATH\\Views\\contact\\emailMessage.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact\\emailMessage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('contact/emailMessage', [], true)
+ 5 APPPATH\Controllers\SendEmail.php(108): view('contact/emailMessage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailMessage()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 15:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 15:28:26 --> Cannot use object of type CodeIgniter\Validation\Validation as array
+in APPPATH\Controllers\SendEmail.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SendEmail->sendEmailMessage()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SendEmail))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 15:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 15:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 16:18:11 --> Invalid file: "admin/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/home.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('admin/home', [], true)
+ 3 APPPATH\Controllers\FormAdmin.php(15): view('admin/home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\FormAdmin->formAdmin()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 16:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-20 16:19:20 --> mysqli_sql_exception: Table 'glossario_bilingue.dados_glossario' doesn't exist in C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\r\n     ...', 0)
+#1 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\r\n     ...')
+#2 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\r\n     ...')
+#3 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\app\Models\Dados_GlossarioModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT *\r\n     ...')
+#4 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\app\Controllers\Result.php(34): App\Models\Dados_GlossarioModel->searchTerm('')
+#5 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\CodeIgniter.php(934): App\Controllers\Result->search()
+#6 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+#7 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Lyhllo\Desktop\GLOSSARIO\Glossario\CodeIgniter Code\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Lyhllo...')
+#10 {main}
+CRITICAL - 2023-02-20 16:19:20 --> Table 'glossario_bilingue.dados_glossario' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Dados_GlossarioModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT *
+                                       FROM dados_glossario
+                                      WHERE termo LIKE \'%%\'
+                                         OR sigla LIKE \'%%\'
+                                         OR traducao LIKE \'%%\'
+                                      ORDER BY termo')
+ 2 APPPATH\Controllers\Result.php(34): App\Models\Dados_GlossarioModel->searchTerm('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Result->search()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 16:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 16:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
