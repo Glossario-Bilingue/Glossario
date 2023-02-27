@@ -110,14 +110,16 @@
                     <?php endif;?>
 
                     <!-- Data da última atualização -->
-                    <div class="row gx-5">
-                        <div class="col-lg-8 col-xl-4 text-right">
-                            <p class="font-weight-bold">Última atualização</p>
+                    <?php if (session()->has('user')) :?>
+                        <div class="row gx-5">
+                            <div class="col-lg-8 col-xl-4 text-right">
+                                <p class="font-weight-bold">Última atualização</p>
+                            </div>
+                            <div class="col-lg-8 col-xl-6 text-left">
+                                <p class="font-weight-normal"><?php echo date('d-m-Y', strtotime($dados['dia'])) ?></p>
+                            </div>
                         </div>
-                        <div class="col-lg-8 col-xl-6 text-left">
-                            <p class="font-weight-normal"><?php echo date('d-m-Y', strtotime($dados['dia'])) ?></p>
-                        </div>
-                    </div>
+                    <?php endif; ?>
 
                 </div>
                 

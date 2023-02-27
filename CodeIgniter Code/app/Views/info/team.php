@@ -82,24 +82,11 @@
         <section class="py-5 bg-light">
             <div class="container px-5 my-5">
                 <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="<?php echo base_url('/assets/images/William.jpg'); ?>" alt="..." /></div>
                     <div class="col-lg-6">
-                        <h1><a href="http://lattes.cnpq.br/6149333012485542">Augusto Dessanti</a></h1>
+                        <h1><a href="http://lattes.cnpq.br/8944023911894941">William Moraes da Silva</a></h1>
                         <h3>Discente colaborador</h3>
-                        <p class="lead fw-normal text-muted mb-0 text-justify">Aluno do curso de Engenharia de Controle e Automação do Instituto Federal do Rio Grande Do Sul Câmpus Farroupilha(IFRS).</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Seção direita-->
-        <section class="py-5">
-            <div class="container px-5 my-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <h1><a href="http://lattes.cnpq.br/2344781119476522">José Henrique Noal</a></h1>
-                        <h3>Discente colaborador</h3>
-                        <p class="lead fw-normal text-muted mb-0 text-justify">Aluno do ensino médio integrado em informática do Instituto Federal do Rio Grande do Sul Câmpus Farroupilha(IFRS)</p>
+                        <p class="lead fw-normal text-muted mb-0 text-justify">Acadêmico de Análise e Desenvolvimento de Sistemas no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS) - Campus Farroupilha. Também é Fisioterapeuta pós-graduado em Fisioterapia Traumato-Ortopédica e Desportiva pela Universidade de Caxias do Sul.</p>
                     </div>
                 </div>
             </div>
