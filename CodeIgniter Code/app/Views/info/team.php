@@ -86,7 +86,7 @@
                     <div class="col-lg-6">
                         <h1><a href="http://lattes.cnpq.br/8944023911894941">William Moraes da Silva</a></h1>
                         <h3>Discente colaborador</h3>
-                        <p class="lead fw-normal text-muted mb-0 text-justify">Acadêmico de Análise e Desenvolvimento de Sistemas no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS) - Campus Farroupilha. Também é Fisioterapeuta pós-graduado em Fisioterapia Traumato-Ortopédica e Desportiva pela Universidade de Caxias do Sul.</p>
+                        <p class="lead fw-normal text-muted mb-0 text-justify">Graduado em Análise e Desenvolvimento de Sistemas no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS) - Campus Farroupilha, período em que foi bolsista no projeto do Glossário Bilíngue. Também é Fisioterapeuta pós-graduado em Fisioterapia Traumato-Ortopédica e Desportiva pela Universidade de Caxias do Sul e mestrando em TI e Gestão em Saúde na Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA).</p>
                     </div>
                 </div>
             </div>
