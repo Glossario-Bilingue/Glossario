@@ -31,32 +31,32 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
-$routes->get('/result/list/(:alpha)', 'Result::list/$1');
-$routes->post('/result/search', 'Result::search');
-$routes->get('/result/definition/(:num)', 'Result::definition/$1');
+$routes->get('/glossario/result/list/(:alpha)', 'Result::list/$1');
+$routes->post('/glossario/result/search', 'Result::search');
+$routes->get('/glossario/result/definition/(:num)', 'Result::definition/$1');
 
-$routes->get('/info/about', 'Info::about');
-$routes->get('/info/team', 'Info::team');
+$routes->get('/glossario/info/about', 'Info::about');
+$routes->get('/glossario/info/team', 'Info::team');
 
-$routes->get('/contact/message', 'Contact::message');
-$routes->get('/contact/sendMessage', 'Contact::sendMessage');
-$routes->get('/contact/submission', 'Contact::submission');
-$routes->post('/contact/sendEmail', 'Contact/sendEmail');
+$routes->get('/glossario/contact/message', 'Contact::message');
+$routes->get('/glossario/contact/sendMessage', 'Contact::sendMessage');
+$routes->get('/glossario/contact/submission', 'Contact::submission');
+$routes->post('/glossario/contact/sendEmail', 'Contact/sendEmail');
 
-$routes->get('/result/notfound', 'Result::notfound');
+$routes->get('/glossario/result/notfound', 'Result::notfound');
 
-$routes->get('/admin/form', 'FormAdmin::formAdmin');
-$routes->post('/formAdmin/save', 'FormAdmin::save');
-$routes->get('/formAdmin/update/(:num)', 'FormAdmin::update/$1');
-$routes->get('/formAdmin/delete/(:num)', 'FormAdmin::delete/$1');
+$routes->get('/glossario/admin/form', 'FormAdmin::formAdmin');
+$routes->post('/glossario/formAdmin/save', 'FormAdmin::save');
+$routes->get('/glossario/formAdmin/update/(:num)', 'FormAdmin::update/$1');
+$routes->get('/glossario/formAdmin/delete/(:num)', 'FormAdmin::delete/$1');
 
-$routes->get('/session/index', 'Session::index');
-$routes->get('/session/loginForm', 'Session::loginForm');
-$routes->post('/session/login', 'Session::login');
-$routes->get('/session/logout', 'Session::logout');
+$routes->get('/glossario/session/index', 'Session::index');
+$routes->get('/glossario/session/loginForm', 'Session::loginForm');
+$routes->post('/glossario/session/login', 'Session::login');
+$routes->get('/glossario/session/logout', 'Session::logout');
 
-$routes->post('/emailSubmission', 'SendEmail::sendEmailSubmission');
-$routes->post('/emailMessage', 'SendEmail::sendEmailMessage');
+$routes->post('/glossario/emailSubmission', 'SendEmail::sendEmailSubmission');
+$routes->post('/glossario/emailMessage', 'SendEmail::sendEmailMessage');
 
 
 /*
